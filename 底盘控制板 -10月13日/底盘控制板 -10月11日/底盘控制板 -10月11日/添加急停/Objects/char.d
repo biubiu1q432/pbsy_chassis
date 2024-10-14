@@ -1,0 +1,31 @@
+.\objects\char.o: User_Fun\Char.c
+.\objects\char.o: D:\Ruanjian\keil mdk\install\ARM\ARMCC\Bin\..\include\string.h
+.\objects\char.o: .\Startup\stm32f10x.h
+.\objects\char.o: .\Startup\core_cm3.h
+.\objects\char.o: D:\Ruanjian\keil mdk\install\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\char.o: .\Startup\system_stm32f10x.h
+.\objects\char.o: .\User\stm32f10x_conf.h
+.\objects\char.o: .\Library\stm32f10x_adc.h
+.\objects\char.o: .\Startup\stm32f10x.h
+.\objects\char.o: .\Library\stm32f10x_bkp.h
+.\objects\char.o: .\Library\stm32f10x_can.h
+.\objects\char.o: .\Library\stm32f10x_cec.h
+.\objects\char.o: .\Library\stm32f10x_crc.h
+.\objects\char.o: .\Library\stm32f10x_dac.h
+.\objects\char.o: .\Library\stm32f10x_dbgmcu.h
+.\objects\char.o: .\Library\stm32f10x_dma.h
+.\objects\char.o: .\Library\stm32f10x_exti.h
+.\objects\char.o: .\Library\stm32f10x_flash.h
+.\objects\char.o: .\Library\stm32f10x_fsmc.h
+.\objects\char.o: .\Library\stm32f10x_gpio.h
+.\objects\char.o: .\Library\stm32f10x_i2c.h
+.\objects\char.o: .\Library\stm32f10x_iwdg.h
+.\objects\char.o: .\Library\stm32f10x_pwr.h
+.\objects\char.o: .\Library\stm32f10x_rcc.h
+.\objects\char.o: .\Library\stm32f10x_rtc.h
+.\objects\char.o: .\Library\stm32f10x_sdio.h
+.\objects\char.o: .\Library\stm32f10x_spi.h
+.\objects\char.o: .\Library\stm32f10x_tim.h
+.\objects\char.o: .\Library\stm32f10x_usart.h
+.\objects\char.o: .\Library\stm32f10x_wwdg.h
+.\objects\char.o: .\Library\misc.h

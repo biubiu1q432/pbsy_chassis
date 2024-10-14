@@ -1,0 +1,233 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: A 2739204544@qq.com, A, LIC=X96CK-ZYNZT-SB3EJ-UXFSW-3KTDI-EDB5G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  D:\software\keil5\keil540\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\27392\Desktop\公安赛道\底盘控制板 -10月11日\底盘控制板 -10月11日\底盘控制板 -10月11日\添加急停\stm32f103c8t6.uvprojx
+Project File Date:  10/11/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\software\keil5\keil540\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_flash.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling BACKUP.c...
+compiling heap_4.c...
+compiling croutine.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_iwdg.c...
+compiling list.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling event_groups.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling port.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling timers.c...
+compiling stream_buffer.c...
+compiling queue.c...
+compiling main.c...
+User\main.c(363): warning:  #177-D: variable "Filter_Divider"  was declared but never referenced
+  	static uint16_t Filter_Divider;
+User\main.c(499): warning:  #177-D: variable "Angle_Q"  was declared but never referenced
+  	float Angle_P,Angle_I,Angle_D,Angle_Q = 0.001;
+User\main.c(542): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			Master.Rx_cut = strtok(Master.Rx_String_Copy, "|");
+User\main.c(619): warning:  #177-D: variable "LEFT_DIS"  was declared but never referenced
+  			int16_t LEFT_DIS;
+User\main.c(834): warning:  #177-D: variable "LEFT_DIS"  was declared but never referenced
+  			int16_t LEFT_DIS;
+User\main.c(609): warning:  #177-D: variable "d10"  was declared but never referenced
+      static uint8_t d10;
+User\main.c(610): warning:  #177-D: variable "msg"  was declared but never referenced
+      struct messageQueue msg;
+User\main.c(612): warning:  #177-D: variable "sData"  was declared but never referenced
+  	struct messageQueue*sData = &_sData;
+User\main.c(977): warning:  #223-D: function "LED_Turn" declared implicitly
+              LED_Turn();  // 鎺у埗 LED 缈昏浆鐘舵�?
+User\main.c(957): warning:  #177-D: variable "msg"  was declared but never referenced
+      struct messageQueue msg;
+User\main.c(959): warning:  #177-D: variable "sData"  was declared but never referenced
+  	struct messageQueue*sData = &_sData;
+User\main.c(1024): warning:  #177-D: variable "temp"  was declared but never referenced
+  	char temp[100];
+User\main.c(1025): warning:  #177-D: variable "j1"  was declared but never referenced
+  	int j1=1;
+User\main.c(1137): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0xFE))
+User\main.c(1137): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0xFE))
+User\main.c(1137): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0xFE))
+User\main.c(1142): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x32)&&(data2[6]==0xFE))
+User\main.c(1142): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x32)&&(data2[6]==0xFE))
+User\main.c(1142): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x32)&&(data2[6]==0xFE))
+User\main.c(1147): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x33)&&(data2[6]==0xFE))
+User\main.c(1147): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x33)&&(data2[6]==0xFE))
+User\main.c(1147): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x33)&&(data2[6]==0xFE))
+User\main.c(1152): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x34)&&(data2[6]==0xFE))
+User\main.c(1152): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x34)&&(data2[6]==0xFE))
+User\main.c(1152): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x34)&&(data2[6]==0xFE))
+User\main.c(1157): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x35)&&(data2[6]==0xFE))
+User\main.c(1157): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x35)&&(data2[6]==0xFE))
+User\main.c(1157): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x35)&&(data2[6]==0xFE))
+User\main.c(1162): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x36)&&(data2[6]==0xFE))
+User\main.c(1162): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x36)&&(data2[6]==0xFE))
+User\main.c(1162): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x36)&&(data2[6]==0xFE))
+User\main.c(1167): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x37)&&(data2[6]==0xFE))
+User\main.c(1167): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x37)&&(data2[6]==0xFE))
+User\main.c(1167): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x37)&&(data2[6]==0xFE))
+User\main.c(1172): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x38)&&(data2[6]==0xFE))
+User\main.c(1172): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x38)&&(data2[6]==0xFE))
+User\main.c(1172): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x38)&&(data2[6]==0xFE))
+User\main.c(1177): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x39)&&(data2[6]==0xFE))
+User\main.c(1177): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x39)&&(data2[6]==0xFE))
+User\main.c(1177): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x39)&&(data2[6]==0xFE))
+User\main.c(1182): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x30))
+User\main.c(1182): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x30))
+User\main.c(1182): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x30))
+User\main.c(1187): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x31))
+User\main.c(1187): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x31))
+User\main.c(1187): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x31))
+User\main.c(1192): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x32))
+User\main.c(1192): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x32))
+User\main.c(1192): warning:  #175-D: subscript out of range
+  				if((data2[3]==0x65)&&(data2[4]==0x6E)&&(data2[5]==0x31)&&(data2[6]==0x32))
+User\main.c(1090): warning:  #177-D: variable "d10"  was declared but never referenced
+      static uint8_t d10;
+User\main.c(1091): warning:  #177-D: variable "msg"  was declared but never referenced
+      struct messageQueue msg;
+User\main.c(1093): warning:  #177-D: variable "sData"  was declared but never referenced
+  	struct messageQueue*sData = &_sData;
+User\main.c(1403): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				a = strstr(LazerRX.Rx_String,":");
+User\main.c(1404): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				b = strstr(LazerRX.Rx_String,"mm,");
+User\main.c(1431): warning:  #177-D: variable "val_counter"  was declared but never referenced
+  		uint8_t i,val_counter = 0;
+User\main.c(1474): warning:  #177-D: variable "val_counter"  was declared but never referenced
+  		uint8_t i,val_counter = 0;
+User\main.c(221): warning:  #177-D: variable "d10"  was declared but never referenced
+      static uint8_t d10;
+User\main.c: 57 warnings, 0 errors
+compiling tasks.c...
+compiling usart.c...
+compiling PWM.c...
+compiling HallEncoder.c...
+compiling Servo.c...
+Hardware\Servo.c(83): warning:  #1-D: last line of file ends without a newline
+  }
+Hardware\Servo.c: 1 warning, 0 errors
+compiling Delay.c...
+compiling LED.c...
+Hardware\LED.c(71): warning:  #223-D: function "vTaskDelay" declared implicitly
+  		vTaskDelay(5);
+Hardware\LED.c: 1 warning, 0 errors
+compiling Key.c...
+compiling rc522_config.c...
+compiling OLED.c...
+compiling rc522_function.c...
+Hardware\RC522\rc522_function.c(417): warning:  #550-D: variable "status"  was set but never used
+  		char status;
+Hardware\RC522\rc522_function.c: 1 warning, 0 errors
+compiling timer.c...
+compiling tcs34725.c...
+Hardware\TCS3472\tcs34725.c(461): warning:  #177-D: variable "minVal"  was declared but never referenced
+  	double maxVal,minVal,difVal;
+Hardware\TCS3472\tcs34725.c(461): warning:  #177-D: variable "difVal"  was declared but never referenced
+  	double maxVal,minVal,difVal;
+Hardware\TCS3472\tcs34725.c: 2 warnings, 0 errors
+compiling VL6180.c...
+Hardware\vl6180x\VL6180.c(68): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i;
+Hardware\vl6180x\VL6180.c(371): warning:  #223-D: function "printf" declared implicitly
+  	else 	printf("2\r\n");
+Hardware\vl6180x\VL6180.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=22276 RO-data=472 RW-data=256 ZI-data=19152  
+FromELF: creating hex file...
+".\Objects\stm32f103c8t6.axf" - 0 Error(s), 64 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::STM32F1xx_DFP@2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/software/keil5/keil540/ARM/Parks/Keil/STM32F1xx_DFP/2.2.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
